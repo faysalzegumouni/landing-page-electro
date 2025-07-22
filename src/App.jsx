@@ -5,6 +5,7 @@ import { product } from "./products";
 import ProductCard from "./components/ProductCard";
 import Chatbot from "./components/Chatbot";
 import Reviews from "./components/Reviews";
+import TrustBanner from "./components/TrustBanner";
 import "./App.css";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       {/* Carte produit */}
       <ProductCard product={product} />
       <Reviews />
+      <TrustBanner />
       <footer className="footer">
   <div className="footer-content">
     <div className="footer-logo">
