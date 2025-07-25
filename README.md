@@ -1,10 +1,49 @@
-# landing-page-electro
+# 🛍️ Landing Page E-Commerce – React & Vite
 
-Ce projet est basé sur React + Vite.
+> Une landing page moderne, complète et prête à vendre, conçue pour promouvoir un produit unique avec une expérience utilisateur fluide, une intégration WhatsApp, un chatbot IA, et un support bilingue (FR/AR).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 **[👉 Voir la démo en ligne](https://mon-landing-page.netlify.app)** *(remplace par ton lien après déploiement)*
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Aperçu du projet
+
+Cette landing page est idéale pour :
+- Vendre un produit électronique, gadget ou accessoire
+- Dropshipping ou commerce local
+- Freelancers qui veulent montrer un projet pro
+- Boutiques en ligne sur WhatsApp
+
+Elle combine **design moderne**, **fonctionnalités avancées** et **optimisation pour la conversion**.
+
+![Aperçu du projet](screenshots/preview.png)
+
+---
+
+## ✨ Fonctionnalités principales
+
+✅ **Design moderne & responsive**  
+✅ Vidéo du produit en action (auto-play, format portrait 9:16)  
+✅ Galerie d'images avec miniatures cliquables  
+✅ Bouton "Commander sur WhatsApp" avec icône SVG animée  
+✅ Chatbot intelligent (réponses automatiques en FR/AR)  
+✅ Support bilingue : **Français ↔ العربية** avec RTL activé  
+✅ Avis clients avec notes, noms et localisations  
+✅ Bandeau de confiance : Livraison gratuite, paiement, support, sécurité, retours  
+✅ Mode sombre / clair (optionnel)  
+✅ Compatible mobile & desktop  
+✅ Construit avec React & Vite (rapide et moderne)
+
+---
+
+## 🚀 Technologies utilisées
+
+- **React** – Bibliothèque UI
+- **Vite** – Outil de build ultra-rapide
+- **CSS3** – Styling fluide, animations, responsive
+- **JavaScript ES6+** – Interactions dynamiques
+- **HTML5** – Structure sémantique et accessible
+
+---
+
+## 📦 Structure du projet
