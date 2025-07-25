@@ -900,3 +900,69 @@ body {
     min-width: 160px;
   }
 }
+/* ===== RTL POUR L'ARABE ===== */
+[dir="rtl"] {
+  text-align: right;
+  font-family: 'Segoe UI', 'Noto Sans Arabic', sans-serif;
+}
+
+[dir="rtl"] .product-layout {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .product-images {
+  margin-right: 0;
+  margin-left: 32px;
+}
+
+/* Responsive RTL */
+@media (max-width: 768px) {
+  [dir="rtl"] .product-layout {
+    flex-direction: column;
+  }
+  [dir="rtl"] .product-images {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+}
+/* ===== BOUTON DE TRADUCTION ===== */
+.lang-toggle {
+  background: transparent;
+  color: var(--text-dark);
+  border: 1px solid #ddd;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px); /* Pour Safari */
+}
+
+/* Survol */
+.lang-toggle:hover {
+  background: #f8f9fa;
+  border-color: #007aff;
+  color: #007aff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 122, 255, 0.15);
+}
+
+/* Focus (accessibilité) */
+.lang-toggle:focus {
+  outline: 2px solid #007aff;
+  outline-offset: 2px;
+}
+
+/* Quand la langue est arabe, le bouton est à gauche */
+[dir="rtl"] .header {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+[dir="rtl"] .lang-toggle {
+  margin-left: 0;
+  margin-right: 16px;
+}
