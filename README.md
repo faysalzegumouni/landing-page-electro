@@ -47,3 +47,25 @@ Elle combine **design moderne**, **fonctionnalités avancées** et **optimisatio
 ---
 
 ## 📦 Structure du projet
+
+mon-landing-page/
+├── public/
+│ ├── 1.jpg, 2.jpg, 3.jpg, 4.jpg # Images du produit
+│ ├── product-demo.mp4 # Vidéo du produit (576x1024)
+│ ├── logo1.png # Logo header
+│ └── logo.png # Logo footer
+├── src/
+│ ├── App.jsx
+│ ├── main.jsx
+│ ├── products.js # Données du produit
+│ ├── components/
+│ │ ├── ProductCard.jsx
+│ │ ├── Chatbot.jsx
+│ │ ├── Reviews.jsx
+│ │ ├── TrustBanner.jsx
+│ │ └── ...
+│ └── App.css # Styles globaux
+├── index.html
+├── vite.config.js
+├── package.json
+└── README.md
